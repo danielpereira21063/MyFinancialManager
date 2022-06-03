@@ -9,15 +9,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC", "MVC", "{02DF7B00-5728-4974-AB43-0A88946E88BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFinancialManager.Domain", "MyFinancialManager.Domain\MyFinancialManager.Domain.csproj", "{FC3FE93D-9FA1-43E9-AF59-475A8DC58861}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFinancialManager.Domain", "MyFinancialManager.Domain\MyFinancialManager.Domain.csproj", "{FC3FE93D-9FA1-43E9-AF59-475A8DC58861}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFinancialManager.Application", "MyFinancialManager.Application\MyFinancialManager.Application.csproj", "{68385C1E-1868-4E78-A39C-213D725E36A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFinancialManager.Application", "MyFinancialManager.Application\MyFinancialManager.Application.csproj", "{68385C1E-1868-4E78-A39C-213D725E36A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFinancialManager.Data", "MyFinancialManager.Data\MyFinancialManager.Data.csproj", "{82CAD58C-4131-4D75-88AA-CB675A2BEA48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFinancialManager.Data", "MyFinancialManager.Data\MyFinancialManager.Data.csproj", "{82CAD58C-4131-4D75-88AA-CB675A2BEA48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFinancialManager.DI", "MyFinancialManager.DI\MyFinancialManager.DI.csproj", "{8F311F10-62ED-4BEC-85B8-D0C12ECDE95C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFinancialManager.DI", "MyFinancialManager.DI\MyFinancialManager.DI.csproj", "{8F311F10-62ED-4BEC-85B8-D0C12ECDE95C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFinancialManager.WebUI", "MyFinancialManager.WebUI\MyFinancialManager.WebUI.csproj", "{07A8228C-86E9-43D1-84CE-8D1B4FB05305}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFinancialManager.WebUI", "MyFinancialManager.WebUI\MyFinancialManager.WebUI.csproj", "{07A8228C-86E9-43D1-84CE-8D1B4FB05305}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
