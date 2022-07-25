@@ -1,4 +1,5 @@
-﻿using MyFinancialManager.Domain.Enums;
+﻿using MyFinancialManager.Domain.Entities.Abstract;
+using MyFinancialManager.Domain.Enums;
 using MyFinancialManager.Domain.Validation;
 
 namespace MyFinancialManager.Domain.Entities
@@ -12,8 +13,9 @@ namespace MyFinancialManager.Domain.Entities
             DomainException.When(Category.Equals(null), "Category not informed.");
         }
 
+        public ExpenseCategory Category;
+        public DateTime Date { get; set; }
         public string Description { get; set; }
         public decimal Value;
-        public Category Category;
     }
 }

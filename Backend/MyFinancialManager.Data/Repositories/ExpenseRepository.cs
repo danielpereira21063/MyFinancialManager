@@ -1,11 +1,6 @@
 ﻿using MyFinancialManager.Domain.Entities;
 using MyFinancialManager.Domain.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MyFinancialManager.Data.Repositories
 {
@@ -16,17 +11,17 @@ namespace MyFinancialManager.Data.Repositories
             throw new NotImplementedException();
         }
 
-        public void AddRange(IEnumerable<Expense> entities)
+        public void AddRange(ICollection<Expense> entities)
         {
             throw new NotImplementedException();
         }
 
-        public IEnumerable<Expense> Find(Expression<Func<Expense, bool>> expression)
+        public ICollection<Expense> Find(Expression<Func<Expense, bool>> expression)
         {
             throw new NotImplementedException();
         }
 
-        public IEnumerable<Expense> GetAll()
+        public ICollection<Expense> GetAll()
         {
             throw new NotImplementedException();
         }
@@ -41,7 +36,7 @@ namespace MyFinancialManager.Data.Repositories
             throw new NotImplementedException();
         }
 
-        public void RemoveRange(IEnumerable<Expense> entities)
+        public void RemoveRange(ICollection<Expense> entities)
         {
             throw new NotImplementedException();
         }

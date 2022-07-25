@@ -1,10 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MyFinancialManager.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MyFinancialManager.Data.Context
 {
@@ -17,5 +12,12 @@ namespace MyFinancialManager.Data.Context
         public DbSet<Balance> Balance;
         public DbSet<Expense> Expenses;
         public DbSet<Income> Incomes;
+        public DbSet<User> Users;
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+            builder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
+        }
     }
 }
