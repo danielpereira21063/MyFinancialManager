@@ -1,5 +1,7 @@
 ﻿using MyFinancialManager.Domain.Entities;
 using MyFinancialManager.Domain.Interfaces;
+using System;
+using System.Collections.Generic;
 using System.Linq.Expressions;
 
 namespace MyFinancialManager.Data.Repositories

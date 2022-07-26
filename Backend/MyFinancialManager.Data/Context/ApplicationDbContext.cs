@@ -14,10 +14,10 @@ namespace MyFinancialManager.Data.Context
         public DbSet<Income> Incomes;
         public DbSet<User> Users;
 
-        protected override void OnModelCreating(ModelBuilder builder)
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(builder);
-            builder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
         }
+
     }
 }

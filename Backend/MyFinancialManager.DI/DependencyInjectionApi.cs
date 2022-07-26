@@ -9,8 +9,6 @@ namespace MyFinancialManager.DI
     {
         public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddControllers();
-            services.AddEndpointsApiExplorer();
             services.ConfigureDbContext(configuration);
             services.ConfigureSwagger();
 
@@ -20,8 +18,7 @@ namespace MyFinancialManager.DI
         private static IServiceCollection ConfigureDbContext(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlite(configuration.GetConnectionString("SqliteConnection"),
-                b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName))
+                options.UseSqlite(configuration.GetConnectionString("SqliteConnection"))
             );
             return services;
         }

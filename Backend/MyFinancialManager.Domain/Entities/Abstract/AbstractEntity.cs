@@ -3,7 +3,7 @@
     public abstract class AbstractEntity
     {
         protected int Id;
-        protected bool Inactive;
+        public bool Inactive;
         protected DateTime CreatedAt;
 
         public AbstractEntity()
